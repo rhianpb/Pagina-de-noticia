@@ -1,0 +1,122 @@
+*{
+    margin: 0;/*Definir o espaço entre um elemento e os elementos adjacentes*/
+    padding: 0;/*Definir o espaço interno dentro de um elemento, entre seu conteúdo e sua borda */
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;/*largura*/
+    height: 85px;/*altura*/
+    text-align: center;/*utilizada para controlar o alinhamento vertical dos elementos dentro de um contêiner flexbox.*/
+    background-color: rgb(73, 9, 9);/*usada para definir o fundo de um elemento. */
+    color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+} 
+
+section {
+    display: flex;
+    gap: 40px;/*é uma propriedade CSS conveniente para definir o espaçamento entre elementos em um contêiner flexbox ou grid.*/
+}
+
+.menu {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.noticia {
+    font-size: xx-large;
+    margin-left: 40px;
+    color: rgb(92, 17, 17);
+    position: relative;
+    top: 30px;
+}
+
+.n1 {
+    margin-top: 4%;
+    margin-left: 0.3%;
+    background-color: rgb(92, 17, 17);
+    color: white;
+    width: 28%;
+    border-radius: 8px;
+    padding: 20px;
+    align-items: center;
+}
+
+.leia {
+    color: rgb(131, 73, 35);
+    font-weight: bold;
+}
+
+.part2 {
+    display: flex;
+    gap: 10px;
+}
+
+.flamengo {
+    margin-top: 2%;  
+    margin-left: 2%;
+    color: rgb(92, 17, 17);
+}
+
+.flamengo h2 {
+    font-weight: lighter;
+}
+
+.imagem {
+    height: 500px;
+    width: 740px;
+}
+
+.publicidade {
+    margin-top: 2%;
+    color: rgb(92, 17, 17);
+}
+
+.publicidade a {
+    color: rgb(92, 17, 17);
+}
+
+.publicidade img {
+    width: 110%;
+    color: white;
+}
+
+.noticias-relacionadas{
+    padding: 10px;
+    background-color: rgb(92, 17, 17);
+    color: white;
+    margin-right: 4%;
+    margin-top: 4%;
+    border-radius: 20px;
+    height: 90vh;
+    width: 100%;
+    line-height: 2.2em;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 5%;
+    color: white;
+    background-color: rgb(73, 9, 9);
+    width: 100%;
+}
